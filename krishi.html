@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Song</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 100px;
+    }
+    .container {
+      max-width: 500px;
+      margin: auto;
+      background-color: #1e1e1e;
+      border-radius: 15px;
+      padding: 40px;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    }
+    audio {
+      width: 100%;
+      margin-top: 20px;
+    }
+  </style>
+  <script>
+    // Disable right-click to prevent easy download
+    document.addEventListener('contextmenu', event => event.preventDefault());
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h1>🎵 My New song</h1>
+    <p>Listen to my latest song (na kanda hoovu ninu) below:</p>
+    <audio controls>
+      <source src="na kanda hoovu.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+    <p style="margin-top: 20px; font-size: 14px; color: gray;">Copyright © 2025 | No downloads allowed</p>
+  </div>
+</body>
+</html>
